@@ -6,7 +6,7 @@ source ~/.shellscripts/alias.sh
 
 
 #remove wine kontextmenu
-wineclear
+remove_wine_context_menus &
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
