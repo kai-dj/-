@@ -1,0 +1,1 @@
+* aik - my home folder on linux (bashrc etc.)
