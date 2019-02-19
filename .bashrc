@@ -15,11 +15,11 @@ PS1='[\u@\h \W]\$ '
 # sudo tab-completion
 complete -cf sudo
 # adb completion
-source /home/aik/.config/aik/linux/bash/completion-android.txt
+#source /home/aik/.config/aik/linux/bash/completion-android.txt
 
 #export PROMPT_COMMAND='printf "\033]0;%s@%s : %s\007" "${USER}" "${HOSTNAME%%.*}" "${PWD/#$HOME/\~}"'
 
-export ALTERNATE_EDITOR=""
+export ALTERNATE_EDITOR="emacs"
 export EDITOR="emacsclient -t"                  # $EDITOR opens in terminal
 export VISUAL="emacsclient -c -a emacs"         # $VISUAL opens in GUI mode
 export ANDROID_HOME=/opt/android-sdk
