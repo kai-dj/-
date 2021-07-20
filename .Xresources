@@ -1,16 +1,9 @@
-
-! xterm settings
-xterm*faceName: Ubuntu Mono
-xterm*faceSize: 14
+XTerm*Background: black
+XTerm*Foreground: white
 xterm*renderFont: true
-
-! VT Font Menu: Unreadable
-xterm*faceSize1: 8
-! VT font menu: Tiny
-xterm*faceSize2: 12
-! VT font menu: Medium
-xterm*faceSize3: 16
-! VT font menu: Large
-xterm*faceSize4: 18
-! VT font menu: Huge
-xterm*faceSize5: 22
+XTerm*faceName: Ubuntu Mono:style=Bold
+xterm*faceSize: 20
+XTerm.vt100.backarrowKey: false
+XTerm.ttyModes: erase ^?
+XTerm.vt100.scrollBar: true
+XTerm.vt100.scrollbar.width: 8
